@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumajang Tourist Ticketing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Lumajang Tourist Ticketing</h1>
+    </header>
+
+    <section id="overview">
+        
+        <p>Lumajang adalah sebuah kota di Jawa Timur yang menyimpan pesona alam luar biasa, 
+            siap memanjakan para pencinta wisata. Dari megahnya Gunung Bromo, 
+            yang sering dijuluki "Niagara dari Indonesia," hingga keindahan Air Terjun Tumpak Sewu, 
+            danau tenang di kaki Gunung Semeru yang cocok untuk berkemah. Tak hanya itu, 
+            Lumajang juga memiliki Pantai Watu Godeg yang eksotis dan Ranu regulo, 
+            negeri di atas awan dengan panorama yang memukau. Ingin menjelajahi keindahan Lumajang dengan mudah? Kini, 
+            Anda dapat memesan tiket perjalanan dan wisata dengan cepat dan aman melalui website kami!</p>
+        <br>
+    </section>
+
+    <form class="destinations" action="payment.html" id="bookingForm">
+        <fieldset>
+            <legend>Pilih Destinasi Wisata</legend>
+            
+            <div class="opsi">
+                <label class="Destinasi">
+                    <input type="radio" name="wisata" value="Gunung Bromo" required>
+                    <figure>
+                        <img src="bromo.jpg" alt="Gunung Bromo" width="250">
+                        <figcaption>Gunung Bromo - Rp 20.000</figcaption>
+                    </figure>
+                </label>
+                <br>
+
+                <label class="Destinasi">
+                    <input type="radio" name="wisata" value="Air Terjun Tumpak Sewu" required>
+                    <figure>
+                        <img src="tumpak sewu.jpg" alt="tumpak sewu" width="250">
+                        <figcaption>Air Terjun Tumpak Sewu - Rp 15.000</figcaption>
+                    </figure>
+                </label>
+                <br>
+
+                <label class="Destinasi">
+                    <input type="radio" name="wisata" value="Ranu Regulo" required>
+                    <figure>
+                        <img src="regulo.jpg" alt="regulo" width="250">
+                        <figcaption>Ranu Regulo - Rp 19.000</figcaption>
+                    </figure>
+                </label>
+
+            </div>
+            
+        </fieldset>
+        <button type="submit">Pesan Tiket</button>
+    </form>    
+</body>
+</html>
